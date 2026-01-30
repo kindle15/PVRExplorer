@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tsp\shell\Extract MP3]
+@="Extract MP3"
+"Icon"="C:\\Windows\\System32\\shell32.dll,137"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.tsp\shell\Extract MP3\command]
+@="cmd /c \"\"C:\\Tools\\extract_mp3_from_tsp.bat\" \"%1\"\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.dvt\shell\Extract MP3]
+@="Extract MP3"
+"Icon"="C:\\Windows\\System32\\shell32.dll,137"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.dvt\shell\Extract MP3\command]
+@="cmd /c \"\"C:\\Tools\\extract_mp3_from_tsp.bat\" \"%1\"\""
